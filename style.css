@@ -1,0 +1,101 @@
+:root {
+  --c_width: 15%;
+  --c_height: 500px;
+}
+@font-face {
+    font-family: font_button;
+    src: url("Streamster.ttf");
+}
+@font-face {
+    font-family: font_head;
+    src: url("VCR_OSD.ttf");
+}
+body{
+	background-image: url("bg.gif");
+	background-size:100%;
+}
+h1{
+	font-family: font_head;
+	background: url(vape.png) no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-size: cover;
+	font-size: 100px;
+	margin-left: 190px;
+	margin-top: 200px;
+	
+}
+#div_top{
+	float:top;
+	width: auto;
+	height: 200px;
+}
+#div_buttons{
+	float: bottom;
+	width: auto;
+	height: auto;
+}
+#div_a{
+	float: left;
+	width: var(--c_width);
+	height: var(--c_height);
+	background: rgba(0, 0, 0, 0.3);
+	margin-right: 20px;
+	margin-top: 0px;
+}
+#div_b{
+	float: left;
+	width: var(--c_width);
+	height: var(--c_height);
+	background: rgba(0, 0, 0, 0.3);
+	margin-right: 20px;
+	margin-top: 0px;
+}
+#div_c{
+	float: left;
+	width: var(--c_width);
+	height: var(--c_height);
+	background: rgba(0, 0, 0, 0.3);
+	margin-right: 20px;
+	margin-top: 0px;
+}
+button{
+	margin-top: 20px;
+	height: 11%;
+	width: 90%;
+	display: block;
+	border:none;
+	background: rgba(0, 0, 0, 0.3);
+	font-family: font_button;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 75px;
+	margin-left: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	outline: none;
+}
+#div_a button{
+	color: #53c4e0;
+}
+#div_b button{
+	color: #c453e0;
+}
+#div_c button{
+	color: #53e0c4;
+}
+#div_a button:hover{
+	text-shadow: 0 0 100px white, 0 0 10px #53c4e0, 0 0 30px #53c4e0, 0 0 50px #53c4e0;
+	transition-duration: 0.3s;
+	border: 1px solid #53c4e0;
+}
+#div_b button:hover{
+	text-shadow: 0 0 100px white, 0 0 10px #c453e0, 0 0 30px #c453e0, 0 0 50px #c453e0;
+	transition-duration: 0.3s;
+	border: 1px solid #c453e0;
+}
+#div_c button:hover{
+	text-shadow: 0 0 100px white, 0 0 10px #53e0c4, 0 0 30px #53e0c4, 0 0 50px #53e0c4;
+	transition-duration: 0.3s;
+	border: 1px solid #53e0c4;
+}
