@@ -21,8 +21,6 @@ h1{
    -webkit-text-fill-color: transparent;
    background-size: cover;
 	font-size: 100px;
-	margin-left: 190px;
-	margin-top: 200px;
 	
 }
 #div_top{
@@ -31,15 +29,15 @@ h1{
 	height: 200px;
 }
 #div_buttons{
-	float: bottom;
 	width: auto;
-	height: auto;
+	height: 50%;
 }
 #div_a{
 	float: left;
 	width: var(--c_width);
 	height: var(--c_height);
 	background: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
 	margin-right: 20px;
 	margin-top: 0px;
 }
@@ -48,6 +46,7 @@ h1{
 	width: var(--c_width);
 	height: var(--c_height);
 	background: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
 	margin-right: 20px;
 	margin-top: 0px;
 }
@@ -56,6 +55,7 @@ h1{
 	width: var(--c_width);
 	height: var(--c_height);
 	background: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
 	margin-right: 20px;
 	margin-top: 0px;
 }
@@ -70,7 +70,7 @@ button{
 	font-size: 50px;
 	text-align: center;
 	padding-bottom: 75px;
-	margin-left: 15px;
+	margin-left: 10px;
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	border-radius: 10px;
 	outline: none;
